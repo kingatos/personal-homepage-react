@@ -13,6 +13,6 @@ body {
     font-family: 'Inter', sans-serif;
     margin: auto;
     padding: 10px;
-    background: ${({ theme }) => theme.color.white};
+    background: ${({ theme }) => theme.color.whiteLilac};
 }
 `;
