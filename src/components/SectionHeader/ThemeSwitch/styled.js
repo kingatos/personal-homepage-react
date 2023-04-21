@@ -10,8 +10,8 @@ export const Wrapper = styled.div`
 `;
 
 export const ThemeSwitchButton = styled.div`
-  background-color: ${({ theme }) => theme.color.mercury};
-  border: 1px solid ${({ theme }) => theme.color.slateGray};
+  background-color: ${({ theme }) => theme.elementColor.switchButton.background};
+  border: 1px solid ${({ theme }) => theme.elementColor.switchButton.border};
   width: 48px;
   height: 25px;
   border-radius: 25%/50%;
@@ -27,7 +27,7 @@ export const BackgroundText = styled.p`
   font-size: 12px;
   line-height: 1.3;
   width: 102px;
-  color: ${({ theme }) => theme.color.slateGray};
+  color: ${({ theme }) => theme.elementColor.switchButton.text};
   text-transform: uppercase;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.bigScreen}px) {
@@ -36,7 +36,7 @@ export const BackgroundText = styled.p`
 `;
 
 export const SwitchElement = styled.img`
-  background-color: ${({ theme }) => theme.color.mercury};
+  background-color: ${({ theme }) => theme.elementColor.switchButton.switchElement};
   border-radius: 50%;
   height: 20px;
   width: 20px;

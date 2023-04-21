@@ -1,10 +1,10 @@
 import styled from "styled-components";
-import { borderRadius, boxShadow } from "../../././../theme";
+import { borderRadius, boxShadow, divider } from "../../././../theme";
 
 export const WrapperSkills = styled.div`
   max-width: 1216px;
   left: calc(50% - 1216px / 2 + 2px);
-  background-color: ${({ theme }) => theme.color.white};
+  background-color: ${({ theme }) => theme.elementColor.skills.background};
   border-radius: ${borderRadius};
   box-shadow: ${boxShadow};
   padding-bottom: 32px;
@@ -19,7 +19,7 @@ export const Subheader = styled.h2`
   text-align: left;
   letter-spacing: 0.05em;
   padding: 32px 32px 0 32px;
-  color: ${({ theme }) => theme.color.mineShaft};
+  color: ${({ theme }) => theme.elementColor.subheader.title};
   transition: 0.5;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.bigScreen}px) {
@@ -55,7 +55,7 @@ export const Point = styled.span`
   height: 9px;
   border-radius: 50%;
   margin-right: 16px;
-  background: ${({ theme }) => theme.color.scienceBlue};
+  background: ${({ theme }) => theme.elementColor.skills.point};
 `;
 
 export const SkillsList = styled.div`
@@ -73,14 +73,14 @@ export const Divider = styled.div`
   height: 1px;
   margin-left: 32px;
   margin-right: 32px;
-  background: ${({ theme }) => theme.color.iron};
+  background: ${divider};
 `;
 
 export const ListItem = styled.li`
   font-weight: 400;
   font-size: 18px;
   letter-spacing: 0.05em;
-  color: ${({ theme }) => theme.color.slateGray};
+  color: ${({ theme }) => theme.elementColor.skills.text};
   transition: 1s;
   margin: 0 32px;
   line-height: 1.4;

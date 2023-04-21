@@ -51,7 +51,7 @@ export const DestriptionHeader = styled.p`
   line-height: 1.4;
   margin: 0 0 32px 0;
   text-align: justify;
-  color: ${({ theme }) => theme.color.slateGray};
+  color: ${({ theme }) => theme.elementColor.header.description};
   transition: background 1s linear, color 1s linear;
 
 
@@ -66,7 +66,7 @@ export const ThisIs = styled.span`
   font-size: 12px;
   line-height: 1.3;
   text-transform: uppercase;
-  color: ${({ theme }) => theme.color.slateGray};
+  color: ${({ theme }) => theme.elementColor.header.description};
   margin: 0 0 12px 0;
   transition: background 1s linear, color 1s linear;
 `;
@@ -75,7 +75,7 @@ export const MyName = styled.h1`
   font-weight: 900;
   font-size: 38px;
   margin: 0 0 36px 0;
-  color: ${({ theme }) => theme.color.mineShaft};
+  color: ${({ theme }) => theme.elementColor.header.text};
   transition: background 1s linear, color 1s linear;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
@@ -94,8 +94,8 @@ export const ButtonHireMe = styled.a`
   grid-template-columns: auto 1fr;
   font-weight: 600;
   font-size: 20px;
-  color: ${({ theme }) => theme.color.white};
-  background-color: ${({ theme }) => theme.color.scienceBlue};
+  color: ${({ theme }) => theme.elementColor.header.emailText};
+  background-color: ${({ theme }) => theme.elementColor.header.button};
   padding: 12px 16px;
   box-shadow: ${boxShadow};
   border-radius: ${borderRadius};
@@ -113,7 +113,10 @@ export const ButtonHireMe = styled.a`
   }
 
   &:hover {
-    box-shadow: 2px -2px 0 ${({ theme }) => theme.color.anakiwa},
+    box-shadow: 2px -2px 0 ${({ theme }) => theme.elementColor.header.link},
+    -2px 2px 0 ${({ theme }) => theme.elementColor.header.link},
+      2px 2px 0 ${({ theme }) => theme.elementColor.header.link},
+      -2px -2px 0 ${({ theme }) => theme.elementColor.header.link};
   }
 
   &:focus {
