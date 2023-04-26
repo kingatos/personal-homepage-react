@@ -21,7 +21,7 @@ function ThemeSwitch() {
         title="change a theme"
       >
         <SwitchElement
-          src={isDarkTheme ? dark : light}
+          src={isDarkTheme ? dark : light }
           alt="Change Theme"
           moveRight={isDarkTheme}
         />

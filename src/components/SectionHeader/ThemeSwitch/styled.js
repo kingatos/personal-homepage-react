@@ -46,7 +46,7 @@ export const SwitchElement = styled.img`
   transform: translate(22px); 
   `}
 
-  @media (max-width: ${({ theme }) => theme.breakpoint.small}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}px) {
     transform: translate(22px);
   }
 `;
