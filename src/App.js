@@ -1,5 +1,7 @@
 import SectionHeader from "./components/SectionHeader/index.js";
 import SectionSkills from "./components/SectionSkills/index.js";
+import SectionPortfolio from "./components/SectionPortfolio/index.js";
+import Footer from "./components/Footer/index.js";
 import { AppContainer, AppWrapper } from "./components/Container/styled.js";
 import { GlobalStyles } from "./GlobalStyles";
 import { ThemeProvider } from "styled-components";
@@ -12,13 +14,15 @@ function App() {
   const isDarkTheme = useSelector(selectIsDarkTheme);
 
   return (
-    <ThemeProvider theme={isDarkTheme ? darkTheme : lightTheme}>
+    <ThemeProvider theme={isDarkTheme ? darkTheme : lightTheme }>
       <>
         <GlobalStyles />
         <AppWrapper>
         <AppContainer>
           <SectionHeader />
           <SectionSkills />
+          <SectionPortfolio />
+          <Footer />
         </AppContainer>
         </AppWrapper>
       </>
