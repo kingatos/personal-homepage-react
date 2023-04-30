@@ -29,6 +29,6 @@ export const {
 } = githubSlice.actions;
 export const selectGithubState = (state) => state.github;
 export const selectRepos = (state) => selectGithubState(state).repos;
-export const selectReposStatus = state => selectGithubState(state).reposStatus;
+export const selectReposStatus = (state) => selectGithubState(state).reposStatus;
 
 export default githubSlice.reducer;

@@ -3,7 +3,7 @@ import { getRepos } from "./getRepos";
 import {
   fetchGithubRepos,
   fetchGithubReposSuccess,
-  fetchGithubHandlerError,
+  fetchGithubReposError,
 } from "./githubSlice";
 
 function* fetchGithubHandler() {
@@ -12,7 +12,7 @@ function* fetchGithubHandler() {
     const repos = yield call(getRepos);
     yield put(fetchGithubReposSuccess(repos));
   } catch (error) {
-    yield put(fetchGithubHandlerError(error));
+    yield put(fetchGithubReposError(error));
     yield call(console.error);
   }
 }
