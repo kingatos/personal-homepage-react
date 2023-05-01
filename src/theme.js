@@ -18,7 +18,7 @@ export const color ={
         semiDark: "#363636",
     };
 
-    const breakpoint = {
+  const breakpoint = {
         mobile: 320,
         bigMobile: 480,
         mobileMax: 767,
