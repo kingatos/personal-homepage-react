@@ -10,21 +10,21 @@ export const socialMedia = [
     {
         name: "github",
         link: `${github}`,
-        Icon: () => <StyledIcon as={githubIcon}/>,
+        Icon: StyledIcon(githubIcon),
     },
     {
         name: "facebook",
         link: `${facebook}`,
-        Icon: () => <StyledIcon as={facebookIcon}/>,
+        Icon: StyledIcon(facebookIcon),
     },
     {
         name: "linkedin",
         link: `${linkedin}`,
-        Icon: () => <StyledIcon as={linkedinIcon}/>,
+        Icon: StyledIcon(linkedinIcon),
     },
     {
         name: "instagram",
         link: `${instagram}`,
-        Icon: () => <StyledIcon as={instagramIcon}/>,
+        Icon: StyledIcon(instagramIcon),
     },
 ];
