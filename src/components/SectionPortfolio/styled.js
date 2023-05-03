@@ -1,15 +1,12 @@
 import styled, { css } from "styled-components";
 import { Subheader } from "../SectionSkills/SkillsInner/styled";
-import { githubIcon } from "./github.svg";
+import { ReactComponent as githubIcon } from "./github.svg";
 
 export const WrapperPortfolio = styled.section`
   text-align: center;
   margin: 72px 0;
   word-break: break-word;
 
-  text-align: center;
-  margin: 72px 0;
-  word-break: break-word;
   @media (max-width: ${({ theme }) => theme.breakpoint.bigScreen}px) {
     margin: 60px 0;
   }
@@ -45,7 +42,7 @@ export const SubHeaderPortfolio = styled.p`
   font-size: 20px;
   line-height: 140%;
   letter-spacing: 0.05em;
-  color: ${({ theme }) => theme.elementColor.portfolio.lead};
+  color: ${({ theme }) => theme.elementColor.subheader.title};
   transition: 1s;
   margin: 0;
   padding-bottom: 24px;
