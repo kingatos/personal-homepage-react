@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.js": "/personal-homepage-react/static/js/main.ee157a75.js",
+    "main.js": "/personal-homepage-react/static/js/main.5dddfb41.js",
     "static/js/787.df33c875.chunk.js": "/personal-homepage-react/static/js/787.df33c875.chunk.js",
     "static/media/Kinga.jpg": "/personal-homepage-react/static/media/Kinga.e0e657fc73f5f1b5a1ad.jpg",
     "static/media/dark.svg": "/personal-homepage-react/static/media/dark.3754f552ee901c37b4f9802b3e1aba87.svg",
     "static/media/light.svg": "/personal-homepage-react/static/media/light.6ebddc9736532584547328069c28e37c.svg",
+    "static/media/instagramIcon.svg": "/personal-homepage-react/static/media/instagramIcon.c56c974f6906b6238548238f1ff98e88.svg",
+    "static/media/githubIcon.svg": "/personal-homepage-react/static/media/githubIcon.4bee20586e47ac481d0d8b8a192a8aa0.svg",
     "index.html": "/personal-homepage-react/index.html",
     "static/media/github.svg": "/personal-homepage-react/static/media/github.a9062bf9626a38e8866f20e84ee3d71b.svg",
     "static/media/errorBlack.svg": "/personal-homepage-react/static/media/errorBlack.e6d203e29322eec02ac775480724ed7e.svg",
-    "static/media/envelope.svg": "/personal-homepage-react/static/media/envelope.ccdc4b9e077322b9a1484f5d89610ff0.svg",
     "static/media/errorLight.svg": "/personal-homepage-react/static/media/errorLight.4827a57c32b57cac2e81321490a6af44.svg",
-    "static/media/spinner.svg": "/personal-homepage-react/static/media/spinner.6878dadc2c2cdf085cc917ebb8e8eb3f.svg",
-    "main.ee157a75.js.map": "/personal-homepage-react/static/js/main.ee157a75.js.map",
+    "static/media/linkedinIcon.svg": "/personal-homepage-react/static/media/linkedinIcon.b982d3d87c0582f4c1a8c3c34686d01f.svg",
+    "static/media/envelope.svg": "/personal-homepage-react/static/media/envelope.a791c274a5ca6a7bba77c80d96c14056.svg",
+    "static/media/facebookIcon.svg": "/personal-homepage-react/static/media/facebookIcon.b32eeffe0f236c088403b67e28626e98.svg",
+    "static/media/spinner.svg": "/personal-homepage-react/static/media/spinner.88a075cf3a7f1af15999cb03bb3a0360.svg",
+    "main.5dddfb41.js.map": "/personal-homepage-react/static/js/main.5dddfb41.js.map",
     "787.df33c875.chunk.js.map": "/personal-homepage-react/static/js/787.df33c875.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.ee157a75.js"
+    "static/js/main.5dddfb41.js"
   ]
 }
