@@ -6,7 +6,7 @@ export const WrapperFooter = styled.footer`
   padding: 0 8px;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
-    padding: 48px 8px 30px; 
+    padding: 48px 8px 30px;
     width: 100%;
   }
 `;
@@ -45,7 +45,7 @@ export const LetsTalk = styled.p`
   transition: 0.5s;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.bigScreen}px) {
-     margin: 16px 0;
+    margin: 16px 0;
   }
   @media (max-width: ${({ theme }) => theme.breakpoint.bigMobile}px) {
     margin: 12px 0;

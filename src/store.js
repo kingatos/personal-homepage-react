@@ -7,12 +7,12 @@ import rootSaga from "./rootSaga";
 const sagaMiddleware = createSagaMiddleware();
 
 const store = configureStore({
-    reducer: {
-        theme: themeSlice,
-        github: githubSlice,
-    },
-    middleware: [sagaMiddleware],
-})
+  reducer: {
+    theme: themeSlice,
+    github: githubSlice,
+  },
+  middleware: [sagaMiddleware],
+});
 
 sagaMiddleware.run(rootSaga);
 

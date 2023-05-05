@@ -44,7 +44,6 @@ export const Details = styled.div`
   }
 `;
 
-
 export const DestriptionHeader = styled.p`
   font-weight: 400;
   font-size: 20px;
@@ -53,7 +52,6 @@ export const DestriptionHeader = styled.p`
   text-align: justify;
   color: ${({ theme }) => theme.elementColor.header.description};
   transition: background 1s linear, color 1s linear;
-
 
   @media (max-width: ${({ theme }) => theme.breakpoint.bigMobile}px) {
     font-size: 17px;
@@ -114,7 +112,7 @@ export const ButtonHireMe = styled.a`
 
   &:hover {
     box-shadow: 2px -2px 0 ${({ theme }) => theme.elementColor.header.link},
-    -2px 2px 0 ${({ theme }) => theme.elementColor.header.link},
+      -2px 2px 0 ${({ theme }) => theme.elementColor.header.link},
       2px 2px 0 ${({ theme }) => theme.elementColor.header.link},
       -2px -2px 0 ${({ theme }) => theme.elementColor.header.link};
   }
@@ -129,8 +127,8 @@ export const Envelope = styled.img`
   margin: 0;
   height: 20px;
   width: auto;
-  
+
   @media (max-width: ${({ theme }) => theme.breakpoint.bigMobile}px) {
     height: 14px;
-  } ;
+  }
 `;

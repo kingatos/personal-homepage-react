@@ -48,7 +48,7 @@ export const Text = styled.p`
   margin: 0;
 `;
 
-export const ButtonLink = styled.button`
+export const ButtonLink = styled.a`
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -68,6 +68,7 @@ export const ButtonLink = styled.button`
   transition: 0.3s;
   letter-spacing: 0.05em;
   border: 1px solid rgba(209, 213, 218, 0.1);
+  cursor: pointer;
 
   &:visited {
     color: ${({ theme }) => theme.elementColor.portfolio.errorLink};

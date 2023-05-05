@@ -10,7 +10,7 @@ function Error() {
   return (
     <>
       <Wrapper>
-        <ErrorIcon src={isDarkTheme ? errorBlack : errorLight} />
+        <ErrorIcon src={isDarkTheme ? errorLight : errorBlack} />
         <Title> Ooops! Something went wrong...</Title>
         <InfoWrapper>
             <Text>Sorry, failed to load Github projects. <br /> 
