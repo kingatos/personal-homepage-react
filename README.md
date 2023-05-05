@@ -1,10 +1,11 @@
-# Getting Started with Create React App
+# Getting Started with Create React App 
+# ✨ MY PERSONAL HOMEPAGE ✨
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Here is my personal homepage like Curriculum Vitae. Responsive Web Design, display for any view port. My repositories is there, social media and my skills.👩🏽‍💻 Check this out! 👇🏽
 
-## [DEMO](https://kingatos.github.io/personal-homepage-react/)
+## ↪️[DEMO](https://kingatos.github.io/personal-homepage-react/)
 
-## ![How it use?](https://i.ibb.co/2jYwLs9/personalhomepage-Kinga-Tos.gif)
+## ![How it use?](https://i.ibb.co/K5LvpTc/mypersonal.gif)
 
 ## Available Scripts
 
@@ -37,6 +38,27 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+### `technologies used in the project`
+
+`HTML`
+`CSS`
+`javaScript ES6+`
+`BEM Convention`
+`media queries`
+`Open Graph`
+`FLEX/GRID`
+`normalize.css`
+`react.js`
+`node.js`
+`create react app`
+`webpack`
+`babel`
+`localStorage`
+`styled-components`
+`react-redux`
+`reduxjs toolkit`
+`redux-saga`
 
 ## Learn More
 
