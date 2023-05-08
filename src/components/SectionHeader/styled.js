@@ -21,14 +21,8 @@ export const ImageHeader = styled.img`
   padding: 5px;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
-    width: 320px;
-    height: 320px;
-    margin-bottom: 13px;
-  }
-
-  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
-    width: 200px;
-    height: 200px;
+    width: 160px;
+    height: 160px;
     margin-bottom: 13px;
   }
 `;
