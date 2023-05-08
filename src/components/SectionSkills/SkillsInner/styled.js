@@ -8,6 +8,11 @@ export const WrapperSkills = styled.div`
   border-radius: ${borderRadius};
   box-shadow: ${boxShadow};
   padding-bottom: 32px;
+  margin-bottom: 72px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.bigMobile}px) {
+    margin-bottom: 50px;
+  }
 `;
 
 export const Subheader = styled.h2`
