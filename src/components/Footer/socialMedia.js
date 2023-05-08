@@ -8,22 +8,22 @@ import { ReactComponent as linkedinIcon } from "./icons/linkedinIcon.svg";
 export const socialMedia = [
   {
     name: "github",
-    link: `${github}`,
+    link: github,
     Icon: StyledIcon(githubIcon),
   },
   {
     name: "facebook",
-    link: `${facebook}`,
+    link: facebook,
     Icon: StyledIcon(facebookIcon),
   },
   {
     name: "linkedin",
-    link: `${linkedin}`,
+    link: linkedin,
     Icon: StyledIcon(linkedinIcon),
   },
   {
     name: "instagram",
-    link: `${instagram}`,
+    link: instagram,
     Icon: StyledIcon(instagramIcon),
   },
 ];
