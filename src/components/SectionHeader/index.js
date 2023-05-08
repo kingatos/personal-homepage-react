@@ -1,7 +1,7 @@
 import {
   WrapperHeader,
   ImageHeader,
-  DestriptionHeader,
+  DescriptionHeader,
   ThisIs,
   MyName,
   ButtonHireMe,
@@ -20,11 +20,11 @@ function SectionHeader({ theme, toggleTheme }) {
       <Details>
         <ThisIs>THIS IS</ThisIs>
         <MyName>Kinga Toś </MyName>
-        <DestriptionHeader>
+        <DescriptionHeader>
           👩🏽💻 Im a beginner frontend developer. I am looking for my first job
           in IT, where I will be able to improve my skills and gain completely
           new experience.
-        </DestriptionHeader>
+        </DescriptionHeader>
         <ButtonHireMe href={`mailto:${email}`} title={email}>
           <Envelope src={envelope} alt="" />
           Hire me

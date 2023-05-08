@@ -44,7 +44,7 @@ export const Details = styled.div`
   }
 `;
 
-export const DestriptionHeader = styled.p`
+export const DescriptionHeader = styled.p`
   font-weight: 400;
   font-size: 20px;
   line-height: 1.4;
