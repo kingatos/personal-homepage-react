@@ -11,7 +11,6 @@ export const WrapperTile = styled.div`
   font-size: 18px;
   line-height: 1.4;
   letter-spacing: 0.05em;
-  margin: 0 0 24px 0;
   text-align: left;
   transition: 0.5s;
   :hover {
