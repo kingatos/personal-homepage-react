@@ -8,13 +8,17 @@ import {
 } from "./styled";
 
 function GitHubTile({ name, description, gitUrl, demo }) {
-  const formattedName = (name[0].toUpperCase() + name.substring(1)).replaceAll("-", " ");
+  const formattedName = (name[0].toUpperCase() + name.substring(1)).replaceAll(
+    "-",
+    " "
+  );
 
   return (
     <WrapperTile title={`repository name: ${name}`}>
       <Title>{formattedName}</Title>
       <Descriprion>{description && description}</Descriprion>
-      {demo && <LinksWrapper>
+      {demo && (
+        <LinksWrapper>
           <dt>Demo:</dt>
           <LinkWrapper>
             <Link href={demo} target="_blank" rel="noreferrer">
@@ -22,8 +26,8 @@ function GitHubTile({ name, description, gitUrl, demo }) {
             </Link>
           </LinkWrapper>
         </LinksWrapper>
-      }
-      {gitUrl && 
+      )}
+      {gitUrl && (
         <LinksWrapper>
           <dt>Repo:</dt>
           <LinkWrapper>
@@ -32,9 +36,9 @@ function GitHubTile({ name, description, gitUrl, demo }) {
             </Link>
           </LinkWrapper>
         </LinksWrapper>
-      }
+      )}
     </WrapperTile>
   );
-};
+}
 
 export default GitHubTile;

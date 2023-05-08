@@ -30,7 +30,7 @@ export const Info = styled.p`
 `;
 
 export const Spinner = styled.img`
-  margin: 0 ;
+  margin: 0;
   animation: spinner 1.5s linear infinite;
   @keyframes spinner {
     0% {
