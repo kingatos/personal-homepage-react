@@ -10,9 +10,6 @@ export const WrapperPortfolio = styled.section`
   @media (max-width: ${({ theme }) => theme.breakpoint.bigScreen}px) {
     margin: 60px 0;
   }
-  @media (max-width: ${({ theme }) => theme.breakpoint.bigMobile}px) {
-    margin: 48px 0;
-  }
 `;
 
 export const LinkPortfolio = styled.a`

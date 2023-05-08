@@ -8,7 +8,6 @@ import { github } from "../../.././personalInfo";
 function Error() {
   const isDarkTheme = useSelector(selectIsDarkTheme);
   return (
-    <>
       <Wrapper>
         <ErrorIcon src={isDarkTheme ? errorLight : errorBlack} />
         <Title> Ooops! Something went wrong...</Title>
@@ -20,7 +19,6 @@ function Error() {
           Go&nbsp;to&nbsp;Github
         </ButtonLink>
       </Wrapper>
-    </>
   );
 }
 
