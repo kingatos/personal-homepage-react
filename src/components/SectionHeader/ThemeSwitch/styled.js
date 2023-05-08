@@ -2,15 +2,16 @@ import styled, { css } from "styled-components";
 
 export const Wrapper = styled.div`
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-end;
+  place-self: flex-start flex-end;
   gap: 12px;
-  align-items: flex-start;
-  transition: all 0.5;
+  -webkit-box-align: center;
+  align-items: center;
+  transition: all 0.5s ease 0s;
 `;
 
 export const ThemeSwitchButton = styled.div`
-  background-color: ${({ theme }) => theme.elementColor.switchButton.background};
+  background-color: ${({ theme }) =>
+    theme.elementColor.switchButton.background};
   border: 1px solid ${({ theme }) => theme.elementColor.switchButton.border};
   width: 48px;
   height: 25px;
@@ -36,15 +37,18 @@ export const BackgroundText = styled.p`
 `;
 
 export const SwitchElement = styled.img`
-  background-color: ${({ theme }) => theme.elementColor.switchButton.switchElement};
+  background-color: ${({ theme }) =>
+    theme.elementColor.switchButton.switchElement};
   border-radius: 50%;
   height: 20px;
   width: 20px;
   transition: 0.5s;
 
-  ${({ moveRight }) => moveRight && css`
-  transform: translate(22px); 
-  `}
+  ${({ moveRight }) =>
+    moveRight &&
+    css`
+      transform: translate(22px);
+    `}
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobile}px) {
     transform: translate(22px);
