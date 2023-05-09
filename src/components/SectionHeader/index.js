@@ -13,7 +13,7 @@ import Image from "./images/Kinga.jpg";
 import envelope from "./images/envelope.svg";
 import { email } from "./../.././personalInfo";
 
-function SectionHeader({ theme, toggleTheme }) {
+const SectionHeader = ({ theme, toggleTheme }) => {
   return (
     <WrapperHeader>
       <ImageHeader src={Image} alt="Kinga Tos photo" />

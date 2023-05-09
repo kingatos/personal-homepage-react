@@ -18,7 +18,7 @@ import { github } from "../.././personalInfo";
 import Loading from "./Loading";
 import Error from "./Error";
 
-function SectionPortfolio() {
+const SectionPortfolio = () => {
   const reposStatus = useSelector(selectReposStatus);
   const repos = useSelector(selectRepos);
   const dispatch = useDispatch();

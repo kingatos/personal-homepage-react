@@ -5,7 +5,7 @@ import errorBlack from "./errorBlack.svg";
 import errorLight from "./errorLight.svg";
 import { github } from "../../.././personalInfo";
 
-function Error() {
+const Error = () => {
   const isDarkTheme = useSelector(selectIsDarkTheme);
   return (
       <Wrapper>

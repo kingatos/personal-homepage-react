@@ -8,7 +8,7 @@ import {
   Divider,
 } from "./styled.js";
 
-function SkillsInner({ title, icon, list }) {
+const SkillsInner = ({ title, icon, list }) => {
   return (
     <WrapperSkills>
       <Subheader>

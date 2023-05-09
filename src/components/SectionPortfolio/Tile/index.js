@@ -7,7 +7,7 @@ import {
   Link,
 } from "./styled";
 
-function GitHubTile({ name, description, gitUrl, demo }) {
+const GitHubTile = ({ name, description, gitUrl, demo }) => {
   const formattedName = (name[0].toUpperCase() + name.substring(1)).replaceAll(
     "-",
     " "

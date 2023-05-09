@@ -1,7 +1,7 @@
 import { personalInfo } from "../.././personalInfo";
 import SkillsInner from "./SkillsInner";
 
-function SectionSkills() {
+const SectionSkills = () => {
   return (
     <>
       {personalInfo.map((sectionInfo) => (

@@ -9,7 +9,7 @@ import {
   Link,
 } from "./styled";
 
-function Footer() {
+const Footer = () => {
   return (
     <WrapperFooter>
       <LetsTalk>let's talk!</LetsTalk>

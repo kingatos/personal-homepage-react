@@ -9,7 +9,7 @@ import dark from "./icon/dark.svg";
 import { useDispatch, useSelector } from "react-redux";
 import { selectIsDarkTheme, toggleTheme } from "./themeSlice";
 
-function ThemeSwitch() {
+const ThemeSwitch = () => {
   const isDarkTheme = useSelector(selectIsDarkTheme);
   const dispatch = useDispatch();
 
