@@ -40,7 +40,7 @@ export const Details = styled.div`
 
 export const DescriptionHeader = styled.p`
   font-weight: 400;
-  font-size: 20px;
+  font-size: ${({ theme }) => theme.fontSize.sXL};
   line-height: 1.4;
   margin: 0 0 32px 0;
   text-align: justify;
@@ -48,14 +48,14 @@ export const DescriptionHeader = styled.p`
   transition: background 1s linear, color 1s linear;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.bigMobile}px) {
-    font-size: 17px;
+    font-size: ${({ theme }) => theme.fontSize.M};
     margin: 0 0 24px 0;
   }
 `;
 
 export const ThisIs = styled.span`
   font-weight: 700;
-  font-size: 12px;
+  font-size: ${({ theme }) => theme.fontSize.XS};
   line-height: 1.3;
   text-transform: uppercase;
   color: ${({ theme }) => theme.elementColor.header.description};
@@ -65,7 +65,7 @@ export const ThisIs = styled.span`
 
 export const MyName = styled.h1`
   font-weight: 900;
-  font-size: 38px;
+  font-size: ${({ theme }) => theme.fontSize.lXXL};
   margin: 0 0 36px 0;
   color: ${({ theme }) => theme.elementColor.header.text};
   transition: background 1s linear, color 1s linear;
@@ -75,7 +75,7 @@ export const MyName = styled.h1`
     margin: 0 0 24px;
   }
   @media (max-width: ${({ theme }) => theme.breakpoint.bigMobile}px) {
-    font-size: 22px;
+    font-size: ${({ theme }) => theme.fontSize.XL};
     margin: 0 0 16px;
   }
 `;
@@ -85,7 +85,7 @@ export const ButtonHireMe = styled.a`
   align-items: center;
   grid-template-columns: auto 1fr;
   font-weight: 600;
-  font-size: 20px;
+  font-size: ${({ theme }) => theme.fontSize.sXL};
   color: ${({ theme }) => theme.elementColor.header.emailText};
   background-color: ${({ theme }) => theme.elementColor.header.button};
   padding: 12px 16px;

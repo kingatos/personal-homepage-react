@@ -8,7 +8,7 @@ export const WrapperTile = styled.div`
   border-radius: ${borderRadius};
   padding: 56px;
   font-weight: 400;
-  font-size: 18px;
+  font-size: ${({ theme }) => theme.fontSize.lM};
   line-height: 1.4;
   letter-spacing: 0.05em;
   text-align: left;
@@ -30,14 +30,14 @@ export const WrapperTile = styled.div`
 
 export const Title = styled.h3`
   font-weight: 700;
-  font-size: 24px;
+  font-size: ${({ theme }) => theme.fontSize.lXL};
   line-height: 1.4;
   letter-spacing: 0.05em;
   color: ${({ theme }) => theme.elementColor.portfolio.title};
   margin: 0 0 24px;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.bigMobile}px) {
-    font-size: 16px;
+    font-size: ${({ theme }) => theme.fontSize.sM};
     line-height: 1.2;
     margin-bottom: 16px;
   }
@@ -45,7 +45,7 @@ export const Title = styled.h3`
 
 export const Descriprion = styled.p`
   font-weight: 400;
-  font-size: 18px;
+  font-size: ${({ theme }) => theme.fontSize.lM};
   line-height: 1.4;
   color: ${({ theme }) => theme.elementColor.portfolio.description};
 
@@ -53,7 +53,7 @@ export const Descriprion = styled.p`
     font-size: 17px;
   }
   @media (max-width: ${({ theme }) => theme.breakpoint.bigMobile}px) {
-    font-size: 14px;
+    font-size: ${({ theme }) => theme.fontSize.S};
     line-height: 1.2;
     margin: 0 0 8px 0;
   }
@@ -64,12 +64,12 @@ export const LinksWrapper = styled.div`
   grid-template-columns: 4em 1fr;
   margin: 24px 0 0 0;
   font-weight: 400;
-  font-size: 18px;
+  font-size: ${({ theme }) => theme.fontSize.lM};
   line-height: 1.4;
   color: ${({ theme }) => theme.elementColor.portfolio.description};
   
   @media (max-width: ${({ theme }) => theme.breakpoint.bigScreen}px) {
-    font-size: 17px;
+    font-size: ${({ theme }) => theme.fontSize.M};
   }
   @media (max-width: ${({ theme }) => theme.breakpoint.bigMobile}px) {
     font-size: 14px;
@@ -81,7 +81,7 @@ export const LinksWrapper = styled.div`
 export const Demo = styled(Descriprion)`
   margin: 8px 0 0 0;
   @media (max-width: ${({ theme }) => theme.breakpoint.bigMobile}px) {
-    font-size: 14px;
+    font-size: ${({ theme }) => theme.fontSize.S};
     line-height: 1.2;
   }
 `;
@@ -103,7 +103,7 @@ export const LinkWrapper = styled.dd`
 
 export const Link = styled.a`
   font-weight: 400;
-  font-size: 18px;
+  font-size: ${({ theme }) => theme.fontSize.lM};
   line-height: 1.4;
   color: ${({ theme }) => theme.elementColor.portfolio.link};
   transition: 0.3s;
@@ -117,10 +117,10 @@ export const Link = styled.a`
   }
   
   @media (max-width: ${({ theme }) => theme.breakpoint.bigScreen}px) {
-    font-size: 17px;
+    font-size: ${({ theme }) => theme.fontSize.M};
   }
   @media (max-width: ${({ theme }) => theme.breakpoint.bigMobile}px) {
-    font-size: 14px;
+    font-size: ${({ theme }) => theme.fontSize.S};
     line-height: 1.2;
   }
 `;

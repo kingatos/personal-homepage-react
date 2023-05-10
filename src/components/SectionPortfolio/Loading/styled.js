@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
   justify-content: center;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: ${({ theme }) => theme.fontSize.sXL};
   line-height: 1.4;
   letter-spacing: 0.05em;
   margin: 82px 0 140px 0;
@@ -18,7 +18,7 @@ export const Wrapper = styled.div`
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobile}px) {
-    font-size: 16px;
+    font-size: ${({ theme }) => theme.fontSize.sM};
   }
 `;
 

@@ -19,7 +19,7 @@ export const Subheader = styled.h2`
   display: flex;
   align-content: center;
   font-weight: 900;
-  font-size: 30px;
+  font-size: ${({ theme }) => theme.fontSize.sXXl};
   line-height: 36px;
   text-align: left;
   letter-spacing: 0.05em;
@@ -32,7 +32,7 @@ export const Subheader = styled.h2`
     line-height: 28px;
   }
   @media (max-width: ${({ theme }) => theme.breakpoint.bigMobile}px) {
-    font-size: 18px;
+    font-size: ${({ theme }) => theme.fontSize.lM};
     line-height: 22px;
   }
 `;
@@ -41,16 +41,16 @@ export const Icon = styled.span`
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: ${({ theme }) => theme.fontSize.lXL};
   line-height: 29px;
   text-align: center;
   letter-spacing: 0.05em;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.bigScreen}px) {
-    font-size: 18px;
+    font-size: ${({ theme }) => theme.fontSize.lM};
   }
   @media (max-width: ${({ theme }) => theme.breakpoint.bigMobile}px) {
-    font-size: 16px;
+    font-size: ${({ theme }) => theme.fontSize.sM};
     line-height: 19px;
   }
 `;
@@ -83,7 +83,7 @@ export const Divider = styled.div`
 
 export const ListItem = styled.li`
   font-weight: 400;
-  font-size: 18px;
+  font-size: ${({ theme }) => theme.fontSize.lM};
   letter-spacing: 0.05em;
   color: ${({ theme }) => theme.elementColor.skills.text};
   transition: 1s;
@@ -93,7 +93,7 @@ export const ListItem = styled.li`
   align-items: center;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.bigMobile}px) {
-    font-size: 14px;
+    font-size: ${({ theme }) => theme.fontSize.S};
     line-height: 17px;
   }
 `;

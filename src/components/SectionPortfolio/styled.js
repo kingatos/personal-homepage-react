@@ -36,7 +36,7 @@ export const GitHubIcon = styled(githubIcon)`
 
 export const SubHeaderPortfolio = styled.p`
   font-weight: 400;
-  font-size: 20px;
+  font-size: ${({ theme }) => theme.fontSize.sXL};
   line-height: 140%;
   letter-spacing: 0.05em;
   color: ${({ theme }) => theme.elementColor.subheader.title};

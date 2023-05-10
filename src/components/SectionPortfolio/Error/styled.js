@@ -14,7 +14,7 @@ export const Wrapper = styled.div`
     margin: 40px 0 70px 0;
   }
   @media (max-width: ${({ theme }) => theme.breakpoint.mobile}px) {
-    font-size: 16px;
+    font-size: ${({ theme }) => theme.fontSize.sM};
   }
 `;
 
@@ -25,7 +25,7 @@ export const ErrorIcon = styled.img`
 
 export const Title = styled.h3`
   font-weight: 700;
-  font-size: 24px;
+  font-size: ${({ theme }) => theme.fontSize.lXL};
   line-height: 29px;
   text-align: center;
   letter-spacing: 0.05em;
@@ -41,7 +41,7 @@ export const InfoWrapper = styled.div`
 
 export const Text = styled.p`
   font-weight: 400;
-  font-size: 20px;
+  font-size: ${({ theme }) => theme.fontSize.sXL};
   line-height: 1.4;
   text-align: center;
   letter-spacing: 0.05em;
@@ -56,7 +56,7 @@ export const ButtonLink = styled.a`
   padding: 12px 16px;
   gap: 16px;
   font-weight: 600;
-  font-size: 20px;
+  font-size: ${({ theme }) => theme.fontSize.sXL};
   line-height: 24px;
   color: ${({ theme }) => theme.elementColor.portfolio.errorLink};
   background-color: ${({ theme }) => theme.elementColor.portfolio.button};

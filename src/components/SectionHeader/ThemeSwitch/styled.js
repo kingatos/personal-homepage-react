@@ -25,7 +25,7 @@ export const ThemeSwitchButton = styled.div`
 
 export const BackgroundText = styled.p`
   font-weight: 700;
-  font-size: 12px;
+  font-size: ${({ theme }) => theme.fontSize.XS};
   line-height: 1.3;
   width: 102px;
   color: ${({ theme }) => theme.elementColor.switchButton.text};

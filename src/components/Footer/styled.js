@@ -15,7 +15,7 @@ export const StyledEmail = styled.a`
   text-decoration: none;
   color: ${({ theme }) => theme.elementColor.footer.email};
   font-weight: 900;
-  font-size: 32px;
+  font-size: ${({ theme }) => theme.fontSize.XXL};
   line-height: 39px;
   letter-spacing: 0.05em;
   transition: 0.5s;
@@ -25,11 +25,11 @@ export const StyledEmail = styled.a`
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoint.bigScreen}px) {
-    font-size: 20px;
+    font-size: ${({ theme }) => theme.fontSize.sXL};
     line-height: 30px;
   }
   @media (max-width: ${({ theme }) => theme.breakpoint.bigMobile}px) {
-    font-size: 16px;
+    font-size: ${({ theme }) => theme.fontSize.sM};
     line-height: 22px;
   }
 `;
@@ -38,7 +38,7 @@ export const LetsTalk = styled.p`
   color: ${({ theme }) => theme.elementColor.footer.intro};
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 12px;
+  font-size: ${({ theme }) => theme.fontSize.XS};
   line-height: 1.3;
   text-align: left;
   margin: 24px 0;
@@ -55,14 +55,14 @@ export const LetsTalk = styled.p`
 export const StyledText = styled.p`
   margin: 24px 0 0 0;
   font-weight: 400;
-  font-size: 18px;
+  font-size: ${({ theme }) => theme.fontSize.lM};
   line-height: 1.4;
   letter-spacing: 0.05em;
   text-align: left;
   transition: all 1s linear;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.bigMobile}px) {
-    font-size: 14px;
+    font-size: ${({ theme }) => theme.fontSize.S};
     margin: 12px 0 0 0;
   }
 `;
