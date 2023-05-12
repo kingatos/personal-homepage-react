@@ -14,6 +14,6 @@ const SectionSkills = () => {
       ))}
     </>
   );
-}
+};
 
 export default SectionSkills;
