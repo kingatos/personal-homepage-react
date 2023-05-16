@@ -30,11 +30,15 @@ export const Title = styled.h3`
   text-align: center;
   letter-spacing: 0.05em;
   margin-top: 32px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.bigMobile}px) {
+    font-size: ${({ theme }) => theme.fontSize.S};
+  }
 `;
 
 export const InfoWrapper = styled.div`
   margin: 0 0 48px 0;
-  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoint.bigMobile}px) {
     margin: 0 0 32px 0;
   }
 `;
@@ -46,6 +50,11 @@ export const Text = styled.p`
   text-align: center;
   letter-spacing: 0.05em;
   margin: 0;
+  
+  @media (max-width: ${({ theme }) => theme.breakpoint.bigMobile}px) {
+    font-size: ${({ theme }) => theme.fontSize.S};
+  }
+
 `;
 
 export const ButtonLink = styled.a`
