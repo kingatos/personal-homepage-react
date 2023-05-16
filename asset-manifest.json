@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/personal-homepage-react/static/js/main.d615f793.js",
+    "main.js": "/personal-homepage-react/static/js/main.65f14992.js",
     "static/js/787.df33c875.chunk.js": "/personal-homepage-react/static/js/787.df33c875.chunk.js",
     "static/media/Kinga.jpg": "/personal-homepage-react/static/media/Kinga.e0e657fc73f5f1b5a1ad.jpg",
     "static/media/dark.svg": "/personal-homepage-react/static/media/dark.3754f552ee901c37b4f9802b3e1aba87.svg",
@@ -15,10 +15,10 @@
     "static/media/envelope.svg": "/personal-homepage-react/static/media/envelope.a791c274a5ca6a7bba77c80d96c14056.svg",
     "static/media/facebookIcon.svg": "/personal-homepage-react/static/media/facebookIcon.b32eeffe0f236c088403b67e28626e98.svg",
     "static/media/spinner.svg": "/personal-homepage-react/static/media/spinner.88a075cf3a7f1af15999cb03bb3a0360.svg",
-    "main.d615f793.js.map": "/personal-homepage-react/static/js/main.d615f793.js.map",
+    "main.65f14992.js.map": "/personal-homepage-react/static/js/main.65f14992.js.map",
     "787.df33c875.chunk.js.map": "/personal-homepage-react/static/js/787.df33c875.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.d615f793.js"
+    "static/js/main.65f14992.js"
   ]
 }
