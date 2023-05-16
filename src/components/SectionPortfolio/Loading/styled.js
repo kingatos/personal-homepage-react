@@ -17,7 +17,7 @@ export const Wrapper = styled.div`
     margin: 40px 0 70px 0;
   }
 
-  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoint.bigMobile}px) {
     font-size: ${({ theme }) => theme.fontSize.sM};
   }
 `;
@@ -40,7 +40,7 @@ export const Spinner = styled.img`
       transform: rotate(360deg);
     }
   }
-  @media (max-width:${({ theme }) => theme.breakpoint.mobile}px){
+  @media (max-width:${({ theme }) => theme.breakpoint.bigMobile}px){
     width: 80px;
     height: 80px;
   }
