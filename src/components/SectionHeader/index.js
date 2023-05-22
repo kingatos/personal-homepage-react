@@ -33,6 +33,6 @@ const SectionHeader = ({ theme, toggleTheme }) => {
       <SwitchTheme theme={theme} toggleTheme={toggleTheme} />
     </WrapperHeader>
   );
-}
+};
 
 export default SectionHeader;

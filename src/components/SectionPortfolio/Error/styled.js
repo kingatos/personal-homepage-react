@@ -50,11 +50,10 @@ export const Text = styled.p`
   text-align: center;
   letter-spacing: 0.05em;
   margin: 0;
-  
+
   @media (max-width: ${({ theme }) => theme.breakpoint.bigMobile}px) {
     font-size: ${({ theme }) => theme.fontSize.S};
   }
-
 `;
 
 export const ButtonLink = styled.a`

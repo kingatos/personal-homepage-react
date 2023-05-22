@@ -36,12 +36,12 @@ const SectionPortfolio = () => {
       <HeaderPortfolio>Portfolio</HeaderPortfolio>
       <SubHeaderPortfolio>My recent projects</SubHeaderPortfolio>
       <WrapperRepos notSuccess={reposStatus !== "success"}>
-        {
-         reposStatus === "error" 
-         ? <Error />
-         : reposStatus === "loading" 
-         ? <Loading />
-            : repos.map((repo) => 
+        {reposStatus === "error" ? (
+          <Error />
+        ) : reposStatus === "loading" ? (
+          <Loading />
+        ) : (
+          repos.map((repo) => (
             <GitHubTile
               as="li"
               key={repo.id}
@@ -50,11 +50,11 @@ const SectionPortfolio = () => {
               demo={repo.homepage}
               gitUrl={repo.html_url}
             />
-          )
-        }
+          ))
+        )}
       </WrapperRepos>
     </WrapperPortfolio>
   );
-}
+};
 
 export default SectionPortfolio;

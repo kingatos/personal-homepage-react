@@ -57,8 +57,8 @@ export const WrapperRepos = styled.div`
     css`
       grid-template-columns: auto;
     `}
-    
+
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     grid-template-columns: 1fr;
-  } ;
+  }
 `;
