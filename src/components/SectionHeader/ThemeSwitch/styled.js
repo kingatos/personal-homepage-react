@@ -9,7 +9,7 @@ export const Wrapper = styled.div`
   transition: all 0.5s ease 0s;
 `;
 
-export const ThemeSwitchButton = styled.div`
+export const ThemeSwitchButton = styled.button`
   background-color: ${({ theme }) =>
     theme.elementColor.switchButton.background};
   border: 1px solid ${({ theme }) => theme.elementColor.switchButton.border};
