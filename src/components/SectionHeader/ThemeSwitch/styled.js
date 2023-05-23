@@ -31,7 +31,7 @@ export const BackgroundText = styled.p`
   color: ${({ theme }) => theme.elementColor.switchButton.text};
   text-transform: uppercase;
 
-  @media (max-width: ${({ theme }) => theme.breakpoint.bigScreen}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     display: none;
   }
 `;
