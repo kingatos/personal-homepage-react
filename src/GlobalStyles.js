@@ -14,5 +14,7 @@ body {
     margin: auto;
     padding: 10px;
     background: ${({ theme }) => theme.elementColor.site.background};
+    color: ${({ theme }) => theme.elementColor.site.text};
+    transition: background 0.5s; 
 }
 `;

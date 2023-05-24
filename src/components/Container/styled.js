@@ -1,11 +1,5 @@
 import styled from "styled-components";
 
-export const AppWrapper = styled.div`
-  background-color: ${({ theme }) => theme.elementColor.site.background};
-  color: ${({ theme }) => theme.elementColor.site.text};
-  transition: background 0.5s linear, color 0.5s linear;
-`;
-
 export const AppContainer = styled.div`
   margin: auto;
   max-width: 1216px;
