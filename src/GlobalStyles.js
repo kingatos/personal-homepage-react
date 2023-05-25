@@ -12,6 +12,7 @@ html {
 body {
     font-family: 'Inter', sans-serif;
     margin: auto;
+    word-break: break-word;
     padding: 10px;
     background: ${({ theme }) => theme.elementColor.site.background};
     color: ${({ theme }) => theme.elementColor.site.text};

@@ -108,7 +108,6 @@ export const Link = styled.a`
   color: ${({ theme }) => theme.elementColor.portfolio.link};
   transition: 0.3s;
   text-decoration: none;
-  word-break: break-word;
   opacity: 0.8;
   border-bottom: 1px solid ${({ theme }) => theme.elementColor.portfolio.underline};
  

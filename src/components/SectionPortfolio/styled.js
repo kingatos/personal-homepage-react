@@ -5,7 +5,6 @@ import { ReactComponent as githubIcon } from "./github.svg";
 export const WrapperPortfolio = styled.section`
   text-align: center;
   margin: 72px 0;
-  word-break: break-word;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.bigScreen}px) {
     margin: 60px 0;
