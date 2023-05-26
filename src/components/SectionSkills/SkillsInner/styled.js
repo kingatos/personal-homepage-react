@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import { borderRadius, boxShadow, divider } from "../../././../theme";
+import { borderRadius, boxShadow, divider } from "../../../core/App/theme";
 
-export const WrapperSkills = styled.div`
+export const WrapperSkills = styled.section`
   max-width: 1216px;
   left: calc(50% - 1216px / 2 + 2px);
   background-color: ${({ theme }) => theme.elementColor.skills.background};
@@ -63,7 +63,7 @@ export const Point = styled.span`
   background: ${({ theme }) => theme.elementColor.skills.point};
 `;
 
-export const SkillsList = styled.div`
+export const SkillsList = styled.ul`
   list-style-type: none;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
