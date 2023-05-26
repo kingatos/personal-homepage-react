@@ -11,6 +11,10 @@ export const WrapperFooter = styled.footer`
   }
 `;
 
+export const Address = styled.address`
+font-style: unset;
+`;
+
 export const StyledEmail = styled.a`
   text-decoration: none;
   color: ${({ theme }) => theme.elementColor.footer.email};
@@ -34,7 +38,7 @@ export const StyledEmail = styled.a`
   }
 `;
 
-export const LetsTalk = styled.p`
+export const LetsTalk = styled.h2`
   color: ${({ theme }) => theme.elementColor.footer.intro};
   text-transform: uppercase;
   font-weight: 700;

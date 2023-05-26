@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { borderRadius, boxShadow } from "../../../theme";
+import { borderRadius, boxShadow } from "../../../core/App/theme";
 
 export const WrapperTile = styled.div`
   background: ${({ theme }) => theme.elementColor.portfolio.background};
@@ -13,7 +13,7 @@ export const WrapperTile = styled.div`
   letter-spacing: 0.05em;
   text-align: left;
   transition: 0.5s;
-  :hover {
+  &:hover {
     border: 6px solid ${({ theme }) => theme.elementColor.portfolio.tileHover};
     box-shadow: ${boxShadow};
   }
@@ -59,7 +59,7 @@ export const Descriprion = styled.p`
   }
 `;
 
-export const LinksWrapper = styled.div`
+export const LinksWrapper = styled.dl`
   display: grid;
   grid-template-columns: 4em 1fr;
   margin: 24px 0 0 0;
@@ -90,7 +90,7 @@ export const Repo = styled(Descriprion)`
   margin: 8px 0 0 0;
 `;
 
-export const LinkWrapper = styled.dd`
+export const LinkWrapper = styled.div`
   margin: 0;
   @media (max-width: ${({ theme }) => theme.breakpoint.bigScreen}px) {
     font-size: 17px;

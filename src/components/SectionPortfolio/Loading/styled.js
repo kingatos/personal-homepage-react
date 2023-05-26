@@ -33,10 +33,7 @@ export const Spinner = styled.img`
   margin: 0;
   animation: spinner 1.5s linear infinite;
   @keyframes spinner {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
+   to {
       transform: rotate(360deg);
     }
   }

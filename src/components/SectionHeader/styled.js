@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import { boxShadow, borderRadius } from "../../theme";
+import { boxShadow, borderRadius } from "../../core/App/theme";
 
-export const WrapperHeader = styled.div`
+export const WrapperHeader = styled.header`
   display: grid;
   grid-template-columns: auto auto auto;
   max-width: 1200px;

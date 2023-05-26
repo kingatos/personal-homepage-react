@@ -7,11 +7,13 @@ import {
   LetsTalk,
   StyledText,
   Link,
+  Address,
 } from "./styled";
 
 const Footer = () => {
   return (
     <WrapperFooter>
+      <Address>
       <LetsTalk>let's talk!</LetsTalk>
       <StyledEmail href={`mailto:${email}`}>{email}</StyledEmail>
       <StyledText>
@@ -32,6 +34,7 @@ const Footer = () => {
           </Link>
         ))}
       </WrapperIcon>
+      </Address>
     </WrapperFooter>
   );
 }

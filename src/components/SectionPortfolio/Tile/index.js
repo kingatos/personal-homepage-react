@@ -16,7 +16,7 @@ const GitHubTile = ({ name, description, gitUrl, demo }) => {
   return (
     <WrapperTile title={`repository name: ${name}`}>
       <Title>{formattedName}</Title>
-      <Descriprion>{description && description}</Descriprion>
+      <Descriprion>{description}</Descriprion>
       {demo && (
         <LinksWrapper>
           <dt>Demo:</dt>

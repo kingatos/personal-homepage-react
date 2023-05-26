@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { boxShadow, borderRadius } from "../../../theme";
+import { boxShadow, borderRadius } from "../../../core/App/theme";
 
 export const Wrapper = styled.div`
   display: flex;
