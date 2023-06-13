@@ -39,6 +39,6 @@ const GitHubTile = ({ name, description, gitUrl, demo }) => {
       )}
     </WrapperTile>
   );
-}
+};
 
 export default GitHubTile;

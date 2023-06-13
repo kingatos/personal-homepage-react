@@ -67,7 +67,7 @@ export const LinksWrapper = styled.dl`
   font-size: ${({ theme }) => theme.fontSize.lM};
   line-height: 1.4;
   color: ${({ theme }) => theme.elementColor.portfolio.description};
-  
+
   @media (max-width: ${({ theme }) => theme.breakpoint.bigScreen}px) {
     font-size: ${({ theme }) => theme.fontSize.M};
   }
@@ -75,8 +75,8 @@ export const LinksWrapper = styled.dl`
     font-size: 14px;
     line-height: 1.2;
     margin: 16px 0 0 0;
-     }
-  `;
+  }
+`;
 
 export const Demo = styled(Descriprion)`
   margin: 8px 0 0 0;
@@ -99,7 +99,7 @@ export const LinkWrapper = styled.div`
     font-size: 14px;
     line-height: 1.2;
   }
- `;
+`;
 
 export const Link = styled.a`
   font-weight: 400;
@@ -109,12 +109,13 @@ export const Link = styled.a`
   transition: 0.3s;
   text-decoration: none;
   opacity: 0.8;
-  border-bottom: 1px solid ${({ theme }) => theme.elementColor.portfolio.underline};
- 
+  border-bottom: 1px solid
+    ${({ theme }) => theme.elementColor.portfolio.underline};
+
   &:hover {
     opacity: 1;
   }
-  
+
   @media (max-width: ${({ theme }) => theme.breakpoint.bigScreen}px) {
     font-size: ${({ theme }) => theme.fontSize.M};
   }
