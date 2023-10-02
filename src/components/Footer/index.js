@@ -17,7 +17,7 @@ const Footer = () => {
       <LetsTalk>let's talk!</LetsTalk>
       <StyledEmail href={`mailto:${email}`}>{email}</StyledEmail>
       <StyledText>
-        I am a person who wants to constantly develop. I want to associate my
+        I am a person who wants to constantly develop. <br/> I want to associate my
         future with programming. Feel free to contact me if you need support in
         creating a website and a mobile application. 🤞🏽
       </StyledText>
